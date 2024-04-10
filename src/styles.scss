@@ -1,0 +1,93 @@
+/* You can add global styles to this file, and also import other style files */
+.blank{
+    opacity: 0;
+}
+.btn-verify{
+    padding-top: 8px ;
+    padding-bottom: 8px;
+}
+.bg-secondary{
+    background-color: transparent !important;
+}
+.btn-minus,.btn-plus{
+    background-color: #f7941d !important;
+    border: none !important;
+}
+.btn-minus:hover, .btn-plus:hover{
+    background-color: #0e0d0d !important;
+}
+.btn-danger{
+background-color: #dc3545 !important;
+}
+.btn-danger:hover{
+    background-color: #0e0d0d !important;
+}
+.section-title{
+    text-align: left;
+    padding: 10px 15px;
+    margin-bottom: 0px !important;
+}
+.section {
+    padding: 50px 0 !important;
+    position: relative;
+}
+.range-slider{
+    width: 100%;
+}
+.price_label{
+    font-size: 13px;
+
+}
+
+.add-product ::placeholder{
+    font-size: 14px;
+}
+input[type="file"]{
+    padding: 0px 0px !important;
+}
+select{
+    padding: 0px 0px !important;
+}
+select {
+    font-size: 14px !important;
+}
+.form-filter{
+    padding: 11px 15px !important;
+}
+.inventory-image{
+    width: 40px;
+    height: 40px;
+}
+.mrp{
+    text-decoration: line-through;
+}
+.border-bottom {
+    border-bottom: 1px solid #dee2e6 !important;
+}
+span.wishlist-in-stock{
+    color: #090;
+}
+
+span.wishlist-out-of-stock{
+    color: #f50000;
+}
+span.wishlist-in-stock:before{
+    font-family: 'FontAwesome';
+    letter-spacing: 0;
+    display: inline-block;
+    content: "\f00c";
+    margin-right: 5px;
+    font-weight: 900;
+}
+
+span.wishlist-out-of-stock:before{
+    font-family: 'FontAwesome';
+    letter-spacing: 0;
+    display: inline-block;
+    content: "\f00d";
+    margin-right: 5px;
+    font-weight: 900;
+}
+.overflow-auto{
+    overflow: auto;
+}
